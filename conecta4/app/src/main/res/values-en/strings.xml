@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">conecta4</string>
+    <string name="contentDescription">ficha</string>
+    <string-array name="prefJugadorInicialEtiqueta">
+        <item>Person</item>
+        <item>Machine</item>
+    </string-array>
+    <string name="ganadora">Winner Player</string>
+</resources>

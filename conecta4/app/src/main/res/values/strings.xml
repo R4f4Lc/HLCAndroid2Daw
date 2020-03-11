@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">conecta4</string>
+    <string name="contentDescription">ficha</string>
+    <string-array name="prefJugadorInicialEtiqueta">
+        <item>Persona</item>
+        <item>Máquina</item>
+    </string-array>
+    <string name="ganadora">Ganador jugador</string>
+</resources>

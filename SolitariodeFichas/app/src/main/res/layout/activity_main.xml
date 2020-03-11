@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:background="#2DBDA0"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:id="@+id/tableRow-1"
+        style="@style/row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:background="@android:color/white">
+
+        <Button
+            android:id="@+id/buttonJugadas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="njugadas"
+            android:text="Nº Jug." />
+
+        <Button
+            android:id="@+id/buttonFake"
+            android:enabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:background="@android:color/white"
+            />
+
+        <Button
+            android:id="@+id/buttonMostrar"
+            android:enabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="mostrarJugadas"
+            android:text="¿?" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow0"
+        style="@style/row"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/f0c0Button"
+            style="@style/C4ButtonP"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/f0c1Button"
+            style="@style/C4ButtonP"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/f0c2Button"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        style="@style/row"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/f1c0Button"
+            style="@style/C4ButtonP"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/f1c1Button"
+            style="@style/C4ButtonP"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/f1c2Button"
+            style="@style/C4ButtonP"
+            android:contentDescription="@string/contentDescription" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        style="@style/row"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/f2c0Button"
+            style="@style/C4ButtonP"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/f2c1Button"
+            style="@style/C4ButtonP"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/f2c2Button"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        style="@style/row"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/f3c0Button"
+            style="@style/C4ButtonP"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/f3c1Button"
+            style="@style/C4ButtonP"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/f3c2Button"
+            style="@style/C4ButtonP"
+            android:contentDescription="@string/contentDescription" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        style="@style/row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:background="@android:color/white">
+
+        <Button
+            android:id="@+id/buttonFake2"
+            android:enabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:background="@android:color/white"
+            />
+
+        <Button
+            android:id="@+id/buttonReiniciar"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:background="@drawable/reset"
+            android:onClick="reiniciar"
+            />
+
+        <Button
+            android:id="@+id/buttonFake3"
+            android:enabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:background="@android:color/white"
+            />
+    </TableRow>
+
+</TableLayout>
